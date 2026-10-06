@@ -1,9 +1,11 @@
 [project]
 name = "cicd"
 version = "0.1.0"
-description = "Add your description here"
+description = "CI/CD demo"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pytest>=9.1.1",
 ]
+[tool.pytest.ini_options]
+pythonpath = ["."]
